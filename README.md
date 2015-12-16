@@ -3,7 +3,7 @@
 [![NPM](https://nodei.co/npm/thing-it-device-lirc.png)](https://nodei.co/npm/thing-it-device-lirc/)
 [![NPM](https://nodei.co/npm-dl/thing-it-device-lirc.png)](https://nodei.co/npm/thing-it-device-lirc/)
 
-[thing-it-node] Device Plugin for IR LEDs directly connected to GPIO.
+[thing-it-node] Device Plugin for IR LEDs directly connected to GPIO via Linux Infrared Remote Control (LIRC).
 
 This allows you to 
 
