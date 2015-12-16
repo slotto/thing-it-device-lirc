@@ -1,0 +1,93 @@
+<div class="section" style="padding-top: 0; padding-bottom: 0;">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div style="text-align: center;">
+                <div class="buttonGroup" style="display: inline-block;">
+                    <div style="display: table;">
+                        <div style="display: table-row; vertical-align: middle;">
+                            <div class="gridCell">
+                                <div class="circleButton"
+                                     ng-click="panel.callDeviceService(component, 'standby'); $event.stopPropagation()">
+                                    <i
+                                            class="icon sl-minus-2"></i></div>
+                            </div>
+                            <div class="gridCell">
+                                <div class="circleButton"
+                                     ng-click="panel.callDeviceService(component, 'on'); $event.stopPropagation()"><i
+                                        class="icon sl-remote"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section" style="padding-top: 0; padding-bottom: 0;">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                HDMI Channel
+            </h4>
+        </div>
+        <div class="panel-body">
+            <div style="display: table;">
+                <div style="display: table-row; vertical-align: middle;">
+                    <div class="gridCell">
+                        <div class="circleButton"
+                             ng-click="panel.callDeviceService(component, 'hdmi1'); $event.stopPropagation()">1
+                        </div>
+                    </div>
+                    <div class="gridCell">
+                        <div class="circleButton"
+                             ng-click="panel.callDeviceService(component, 'hdmi2'); $event.stopPropagation()">2
+                        </div>
+                    </div>
+                    <div class="gridCell">
+                        <div class="circleButton"
+                             ng-click="panel.callDeviceService(component, 'hdmi3'); $event.stopPropagation()">3
+                        </div>
+                    </div>
+                    <div class="gridCell">
+                        <div class="circleButton"
+                             ng-click="panel.callDeviceService(component, 'hdmi4'); $event.stopPropagation()">4
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section" style="padding-top: 0; padding-bottom: 0;">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div style="display: table-row; vertical-align: middle;">
+                <div class="gridCell">
+                    <div class="circleButton"
+                         ng-click="panel.callDeviceService(component, 'volumeUp'); $event.stopPropagation()">-
+                    </div>
+                </div>
+                <div class="gridCell">VOL</div>
+                <div class="gridCell">
+                    <div class="circleButton"
+                         ng-click="panel.callDeviceService(component, 'volumeDown'); $event.stopPropagation()">+
+                    </div>
+                </div>
+            </div>
+            <div style="display: table-row; vertical-align: middle;">
+                <div class="gridCell">
+                    <div class="circleButton"
+                         ng-click="panel.callDeviceService(component, 'channelUp'); $event.stopPropagation()">-
+                    </div>
+                </div>
+                <div class="gridCell">CH</div>
+                <div class="gridCell">
+                    <div class="circleButton"
+                         ng-click="panel.callDeviceService(component, 'channelDown'); $event.stopPropagation()">+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

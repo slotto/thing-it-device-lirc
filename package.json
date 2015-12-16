@@ -1,0 +1,23 @@
+{
+  "name": "thing-it-device-lirc",
+  "version": "0.0.2",
+  "description": "[thing-it-node] Device Plugin for IR control connected to GPIO.",
+  "authors": "Julian Seibert",
+  "license": "MIT, EPL",
+  "keywords": [
+    "IoT",
+    "thing-it",
+    "Infrared",
+    "Universal Remote",
+    "LIRC",
+    "Raspberry Pi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slotto/thing-it-device-lirc"
+  },
+  "dependencies": {
+    "net": "^1.0.2",
+    "q": "^1.4.1"
+  }
+}
